@@ -34,21 +34,22 @@ def is_relevant(tweet):
     if doc.cats['Relevant'] > 0.3:
         return True
 
-
 counter = []
 def input_tweets(tweet_type, known, table):
     for i, tweet in enumerate(tweet_type):
         if tweet['id'] not in known:
             date = datetime.datetime.strptime(tweet['created_at'], '%Y-%m-%dT%H:%M:%S.%fZ')
             message = preprocess_tweet(tweet['text'])
-            if is_relevant(message) or table == 'verified_tweets':
+            if (is_relevant(message)) or (table == 'verified_tweets'):
                 cursor.execute(f'''INSERT INTO {table} 
                 VALUES (?, ?, ?)''', (tweet['id'], date, message))
                 counter.append(i)
             else:
                 print(f'bad message:{message}')
 input_tweets(verified, known_verified_tweets, 'verified_tweets')
+verified_tweet_n = counter
+counter = []
 input_tweets(normal, known_normal_tweets, 'normal_tweets_v2')
-
-print(f'Added {len(counter)} normal tweets and {len(verified)} verified tweets')
+input_tweet_n = counter
+print(f'Added {len(input_tweet_n)} normal tweets and {len(verified_tweet_n)} verified tweets')
 conn.commit()
