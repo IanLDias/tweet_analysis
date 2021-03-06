@@ -1,0 +1,284 @@
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 12, in <module>
+    cursor.execute("""
+sqlite3.OperationalError: no such table: normal_tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 12, in <module>
+    cursor.execute("""
+sqlite3.OperationalError: no such table: normal_tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 12, in <module>
+    cursor.execute("""
+sqlite3.OperationalError: no such table: normal_tweets
+<sqlite3.Connection object at 0x1083e2c60>
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 17, in <module>
+    cursor.execute("""
+sqlite3.OperationalError: no such table: normal_tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 17, in <module>
+    cursor.execute("""
+sqlite3.OperationalError: no such table: normal_tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 16, in <module>
+    cursor.execute("""
+sqlite3.OperationalError: no such table: normal_tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 16, in <module>
+    cursor.execute("""
+sqlite3.OperationalError: no such table: normal_tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 16, in <module>
+    cursor.execute("""
+sqlite3.OperationalError: no such table: normal_tweets
+[]
+[('tweets_btc',), ('verified_tweets',), ('normal_tweets',)]
+Added 0 normal tweets and 10 verified tweets
+{'author_id': '32318850', 'text': 'RT @Antmantime: Another Bitcoin video for the Bitcoin haters to try and hide', 'id': '1368037097349783552', 'created_at': '2021-03-06T03:13:55.000Z'}
+Added 1 verified tweets and 9 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 300, in connect
+    conn = self._new_conn()
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x10114a070>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.twitter.com', port=443): Max retries exceeded with url: /2/tweets/search/recent?query=bitcoin&user.fields=entities&tweet.fields=author_id,created_at (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10114a070>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 49, in <module>
+    tweets = get_tweets("bitcoin")
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 27, in get_tweets
+    r = requests.request("GET", url, headers = headers)
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.twitter.com', port=443): Max retries exceeded with url: /2/tweets/search/recent?query=bitcoin&user.fields=entities&tweet.fields=author_id,created_at (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10114a070>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+{'created_at': '2021-03-06T03:57:47.000Z', 'author_id': '170049408', 'text': 'NBA Blockchain Billionaires: Cuban, Tsai and Leonsis to Lead Owners Study\xa0Group https://t.co/OsdVHv0DUx via @sportico \n\nWatch when they start accepting #bitcoin and other #cryptocurrencies.', 'id': '1368048137223479301'}
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+{'author_id': '3367334171', 'text': 'The St. Petersburg City Court accepted the plea of the three people, as the criminal case is targeting the general director of Cryptouniverse, who owns 60% of the firm. #Cryptocurrency https://t.co/padtAOl9z3', 'created_at': '2021-03-06T04:16:49.000Z', 'id': '1368052927110254595'}
+{'id': '1368052927110254595', 'created_at': '2021-03-06T04:16:49.000Z', 'author_id': '3367334171', 'text': 'The St. Petersburg City Court accepted the plea of the three people, as the criminal case is targeting the general director of Cryptouniverse, who owns 60% of the firm. #Cryptocurrency https://t.co/padtAOl9z3'}
+Added 1 verified tweets and 9 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 51, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 36, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 51, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 36, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 0 verified tweets and 10 normal tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'text': "RT @crypto: Curious about #cryptocurrency? Not sure how to buy #Bitcoin? We've got you covered!\n\nFrom the latest news and updates to a begi…", 'created_at': '2021-03-06T05:04:53.000Z', 'id': '1368065020840587264', 'author_id': '606571099'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 51, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 36, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 51, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 36, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 51, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 36, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
