@@ -32,19 +32,6 @@ def input_tweets(tweet_type, known, table):
 
 input_tweets(verified, known_verified_tweets, 'verified_tweets')
 input_tweets(normal, known_normal_tweets, 'normal_tweets')
-# for tweet in verified:
-#     if tweet['id'] not in known_verified_tweets:
-#         date = datetime.datetime.strptime(tweet['created_at'], '%Y-%m-%dT%H:%M:%S.%fZ')
-#         message = preprocess_tweet(tweet['text'])
-#         cursor.execute(f'''INSERT INTO verified_tweets 
-#         VALUES (?, ?, ?)''', (tweet['id'], date, message))
-
-# for tweet in normal:
-#     if tweet['id'] not in known_normal_tweets:
-#         date = datetime.datetime.strptime(tweet['created_at'], '%Y-%m-%dT%H:%M:%S.%fZ')
-#         message = preprocess_tweet(tweet['text'])
-#         cursor.execute(f'''INSERT INTO normal_tweets 
-#         VALUES (?, ?, ?)''', (tweet['id'], date, message))
 
 print(f'Added {len(normal)} normal tweets and {len(verified)} verified tweets')
 conn.commit()

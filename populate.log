@@ -311,3 +311,280 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'env'
 AAAAAAAAAAAAAAAAAAAAAKeALAEAAAAA7pr%2B0Wbti3cRC%2FWaMWouen%2F2cmQ%3DLdwugPjXpcX8TqRrocCtqAAYFwUP8dDqF1jMgm26kk8o2bVvcx
 Added 10 normal tweets and 0 verified tweets
+AAAAAAAAAAAAAAAAAAAAAKeALAEAAAAA7pr%2B0Wbti3cRC%2FWaMWouen%2F2cmQ%3DLdwugPjXpcX8TqRrocCtqAAYFwUP8dDqF1jMgm26kk8o2bVvcx
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'id': '1368080347859017732', 'author_id': '119750943', 'created_at': '2021-03-06T06:05:47.000Z', 'text': 'Desmitificando el gasto de energía de Bitcoin https://t.co/KCl0BQJDF9'}
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'author_id': '19721574', 'text': 'RT @KISBitcoin: How to use @bisq_network video series now accessible in 5 languages.\n\n✓Chinese\n✓Portuguese\n✓French\n✓Spanish\n✓English\n\nHelp…', 'id': '1368082371417829378', 'created_at': '2021-03-06T06:13:49.000Z'}
+{'created_at': '2021-03-06T06:13:49.000Z', 'id': '1368082371417829378', 'author_id': '19721574', 'text': 'RT @KISBitcoin: How to use @bisq_network video series now accessible in 5 languages.\n\n✓Chinese\n✓Portuguese\n✓French\n✓Spanish\n✓English\n\nHelp…'}
+Added 9 normal tweets and 1 verified tweets
+{'id': '1368082636447445000', 'author_id': '32318850', 'text': '@jefreybulla @TheBlueMatt @Stacks @RSKsmart BTC is not Bitcoin and NOTHING has been determined yet other than it can not scale so has zero utility.  The platform wars are won by scaling not manipulated markets.', 'created_at': '2021-03-06T06:14:52.000Z'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'text': "RT @rebeccagrants: Here's my #NCAAM🏀#Top16\n1 #Illinois\n2 #Gonzaga\n3 #Baylor\n4 #KU\n5 #HOU\n6 #Michigan\n7 #Arkansas\n8 #Alabama\n9 #Loyola IL\n10…", 'created_at': '2021-03-06T06:29:48.000Z', 'id': '1368086393801502720', 'author_id': '175161093'}
+{'author_id': '175161093', 'text': "RT @rebeccagrants: Here's my #NCAAM🏀#Top16\n1 #Illinois\n2 #Gonzaga\n3 #Baylor\n4 #KU\n5 #HOU\n6 #Michigan\n7 #Arkansas\n8 #Alabama\n9 #Loyola IL\n10…", 'id': '1368086393801502720', 'created_at': '2021-03-06T06:29:48.000Z'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'id': '1368102513036070912', 'created_at': '2021-03-06T07:33:51.000Z', 'text': '"The mood in the rest of the World towards India is darkening": Raghuram Rajan\n\nThis is what happens when you have an uneducated PM leading the country\n https://t.co/QjRNe94h6h', 'author_id': '405527363'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'created_at': '2021-03-06T07:49:52.000Z', 'id': '1368106542109782016', 'author_id': '18850192', 'text': 'The latest Great Investments Programme Daily Newsletter by Alpesh Patel ! https://t.co/SIWc6KxCIr #thestreetlive #bitcoin'}
+Added 10 normal tweets and 0 verified tweets
+{'id': '1368106797790232578', 'author_id': '323701650', 'created_at': '2021-03-06T07:50:53.000Z', 'text': 'RT @DocumentingBTC: Chamath Palihapitiya on #bitcoin when it was worth $142 https://t.co/4wkrmPT3xR'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'text': 'Brilliant clip from @chamath back in the early days on Bitcoin’s value as an “ultimate” SOV and then a foundation for a new kind of global MOE.\n\nBitcoin has 350x’d since.\n\nhttps://t.co/oRhN4F0V1u', 'created_at': '2021-03-06T07:55:52.000Z', 'author_id': '19721574', 'id': '1368108051652210688'}
+{'id': '1368108051652210688', 'created_at': '2021-03-06T07:55:52.000Z', 'text': 'Brilliant clip from @chamath back in the early days on Bitcoin’s value as an “ultimate” SOV and then a foundation for a new kind of global MOE.\n\nBitcoin has 350x’d since.\n\nhttps://t.co/oRhN4F0V1u', 'author_id': '19721574'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 10 normal tweets and 0 verified tweets
+{'id': '1368109313290539009', 'author_id': '7827962', 'text': 'Se desató la guerra entre Bitcoin y Dogecoin por el enfrentamiento entre dos millonarios de Estados Unidos https://t.co/1RUX5IG0Ll', 'created_at': '2021-03-06T08:00:53.000Z'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'author_id': '32318850', 'text': 'RT @murphsicles: Remember that time when a Core developer said "Hey, 10,000 nodes is too many, let\'s ignore 9,992 of them", and Blockstream…', 'created_at': '2021-03-06T08:02:46.000Z', 'id': '1368109790476439555'}
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'id': '1368115848980926464', 'author_id': '799250105572491264', 'created_at': '2021-03-06T08:26:51.000Z', 'text': 'Less supply of bitcoin https://t.co/G9SEEAqc6f'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'author_id': '281766494', 'created_at': '2021-03-06T08:28:55.000Z', 'id': '1368116367841431552', 'text': '@lemi_59 Die Bitcoin-Kaufaktion hat Tesla jedenfalls nicht geholfen. Seitdem der Kauf Anfang Februar 2021 bekannt wurde, tendiert die Aktie nach unten. Und Konzernchef Elon Musk hat seine Position als reichster Mensch der Welt abgeben müssen. Aktuell steht er nur noch auf Rang drei'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'id': '1368119367876055041', 'author_id': '32318850', 'text': 'ya..no it doesnt...real Bitcoin BSV is a data management protocol so does things digital yuan can not...and BTC is crap and does nothing so also does not compete with the new currency. \n\nhttps://t.co/lVFNQ7WSHX', 'created_at': '2021-03-06T08:40:50.000Z'}
+{'created_at': '2021-03-06T08:40:50.000Z', 'author_id': '32318850', 'text': 'ya..no it doesnt...real Bitcoin BSV is a data management protocol so does things digital yuan can not...and BTC is crap and does nothing so also does not compete with the new currency. \n\nhttps://t.co/lVFNQ7WSHX', 'id': '1368119367876055041'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
