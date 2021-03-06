@@ -588,3 +588,523 @@ Added 10 normal tweets and 0 verified tweets
 Added 9 normal tweets and 1 verified tweets
 Added 10 normal tweets and 0 verified tweets
 Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+{'id': '1368120873559814150', 'created_at': '2021-03-06T08:46:49.000Z', 'text': '@Machiavellecon it does, regulators are not clear on the fact that BTC is not Bitcoin, is centrally controlled by Blockstream with a non locked protocol and with only 8 nodes and zero utility since it can not scale. Once they understand this it does apply I think.', 'author_id': '32318850'}
+{'id': '1368120873559814150', 'created_at': '2021-03-06T08:46:49.000Z', 'author_id': '32318850', 'text': '@Machiavellecon it does, regulators are not clear on the fact that BTC is not Bitcoin, is centrally controlled by Blockstream with a non locked protocol and with only 8 nodes and zero utility since it can not scale. Once they understand this it does apply I think.'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'author_id': '14060308', 'text': 'Oh I appear to have been given Twitter Spaces. I think it’s clubhouse but without the Bitcoin Ted talk chat. Will give it a whirl in a bit.', 'created_at': '2021-03-06T09:29:50.000Z', 'id': '1368131700216246276'}
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'created_at': '2021-03-06T09:46:57.000Z', 'id': '1368136007489646598', 'author_id': '2992256769', 'text': 'RT @MarketWatch: Bitcoin could prevent society from functioning and is an ‘extreme form of libertarian anarchism,’ warns this fund manager…'}
+Added 9 normal tweets and 1 verified tweets
+{'id': '1368136204529655810', 'created_at': '2021-03-06T09:47:44.000Z', 'author_id': '1125319374599012352', 'text': '⚽️Hafta sonunu maç seyrederek geçirmek harika! \n\nRakip topu almadan #Bitcoin almak, harika bir totem olabilir.\n\n#BtcTurk ile kolayca #Bitcoin almak için👇\n\n📲iOS: https://t.co/4Y5WWN85xL \n📲Android: https://t.co/5DPKP4QCIT\n\n#BitcoinTurkiye https://t.co/8ifu4aBFsn'}
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'author_id': '1560181640', 'created_at': '2021-03-06T10:13:50.000Z', 'id': '1368142771534594049', 'text': 'Price data of #Bitcoin #BTC pairs on #btcturkpro\n\nTrade Bitcoin and cryptocurrencies professionally on BtcTurk | PRO website and mobile app👇\n\n📲 iOS: https://t.co/vSqmH7yjnd\n📲 Android: https://t.co/pGUt8Seguf\n💻 Web: https://t.co/iKyEvf0cpI https://t.co/zXyaje6iXm'}
+{'author_id': '1560181640', 'created_at': '2021-03-06T10:13:49.000Z', 'id': '1368142766719569921', 'text': 'Price data of #Tether #USDT pairs on #btcturkpro\n\nTrade #Bitcoin and cryptocurrencies professionally on BtcTurk | PRO website and mobile app👇\n\n📲 iOS: https://t.co/vSqmH7yjnd\n📲 Android: https://t.co/pGUt8Seguf\n💻 Web: https://t.co/AdB42psCLz https://t.co/OSO33Q8r7y'}
+{'id': '1368142776475475968', 'created_at': '2021-03-06T10:13:51.000Z', 'text': 'Price data of Turkish Lira pairs on #btcturkpro\n\nTrade #Bitcoin and cryptocurrencies professionally on BtcTurk | PRO website and mobile app👇\n\n📲 iOS: https://t.co/vSqmH7yjnd\n📲 Android: https://t.co/pGUt8Seguf\n💻 Web: https://t.co/fAUfWZlXZJ https://t.co/ZBMUzM8HUE', 'author_id': '1560181640'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'id': '1368143545295663106', 'author_id': '266517562', 'created_at': '2021-03-06T10:16:54.000Z', 'text': 'RT @fls_news: Neben #Bitcoin gibt es noch eine weitere #Krypto-Technologie, die zum Gamechanger für das Finanzsystem werden könnte: #Ethere…'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'created_at': '2021-03-06T10:29:49.000Z', 'author_id': '82943239', 'text': 'Bitcoin piyasasındaki gelişmeler bilgisayar tamiri yapan esnafı da etkiledi. https://t.co/cBL6Hup1rC', 'id': '1368146796560723969'}
+{'id': '1368146796560723969', 'created_at': '2021-03-06T10:29:49.000Z', 'text': 'Bitcoin piyasasındaki gelişmeler bilgisayar tamiri yapan esnafı da etkiledi. https://t.co/cBL6Hup1rC', 'author_id': '82943239'}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'text': "Bilgisayar tamircileri isyan etti: 'Bitcoin yüzünden ekran kartı bulamıyoruz'\n\nhttps://t.co/TUSTaKrtPf https://t.co/v1Mzl7MJlY", 'created_at': '2021-03-06T10:31:49.000Z', 'author_id': '238640148', 'id': '1368147299415769089'}
+{'created_at': '2021-03-06T10:31:49.000Z', 'id': '1368147299415769089', 'author_id': '238640148', 'text': "Bilgisayar tamircileri isyan etti: 'Bitcoin yüzünden ekran kartı bulamıyoruz'\n\nhttps://t.co/TUSTaKrtPf https://t.co/v1Mzl7MJlY"}
+Added 9 normal tweets and 1 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("/path/to/pipeline")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 47, in load
+    return util.load_model(name, disable=disable, exclude=exclude, config=config)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 329, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model '/path/to/pipeline'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("/path/to/pipeline")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 47, in load
+    return util.load_model(name, disable=disable, exclude=exclude, config=config)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 329, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model '/path/to/pipeline'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("model")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 47, in load
+    return util.load_model(name, disable=disable, exclude=exclude, config=config)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 329, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'model'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("model")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 47, in load
+    return util.load_model(name, disable=disable, exclude=exclude, config=config)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 329, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'model'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("model")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 47, in load
+    return util.load_model(name, disable=disable, exclude=exclude, config=config)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 329, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'model'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("model")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 47, in load
+    return util.load_model(name, disable=disable, exclude=exclude, config=config)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 329, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'model'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("model")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 47, in load
+    return util.load_model(name, disable=disable, exclude=exclude, config=config)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 329, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'model'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("model")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 47, in load
+    return util.load_model(name, disable=disable, exclude=exclude, config=config)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 329, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'model'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("model")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 30, in load
+    return util.load_model(name, **overrides)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 175, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'model'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("model")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 30, in load
+    return util.load_model(name, **overrides)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 175, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'model'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("model")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 30, in load
+    return util.load_model(name, **overrides)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 175, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'model'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 6, in <module>
+    nlp = spacy.load("model")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/__init__.py", line 30, in load
+    return util.load_model(name, **overrides)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/spacy/util.py", line 175, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'model'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 17, in <module>
+    verified, normal = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Added 0 normal tweets and 0 verified tweets
+/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/model
+bad message:RT DrepOfficial Check out DREP 2 0 roadmap for 2021 2022 DREP is heading for DeFi NFT Layer2 With ready to go products li
+bad message:RT MakemoneyTonzzz https t co bBmqzVwCUg TREASURE YouTuber money makemoney USA uk ios iPhone Bitcoin Crypto cryptocurrencie
+bad message:RT expertoken Exper Token Airdrop Active Value 20 Referral 3 40 6 EXPER 3 minutes Talk with the telegram bot https t
+bad message:RT MakemoneyTonzzz Carder forum https t co veG7F6jLDT cashapp CashApp Bitcoin money makemoney USDollar earthquake Trending
+bad message:https t co Ql4WSFyuNa btc bitcoin cryptocurrency jpy
+bad message:https t co zDNGC9dDHA btc bitcoin cryptocurrency jpy
+bad message:https t co NDGn7L2921 btc bitcoin cryptocurrency jpy
+bad message:RT MakemoneyTonzzz Carder forum https t co veG7F6jLDT cashapp money Transfers trading Crypto cryptocurrency bitcoin WhatsApp
+Added 0 normal tweets and 0 verified tweets
+/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/model
+bad message:ChiliZ To Expand Operations Will Invest 50 Million in the US Read more https t co 5e2eUVSCx4 ChiliZ USA cryptocurrency cryptocurrencies CryptoNews CryptocurrencyNews BTCUSD Bitcoin https t co NnmMA1S9Kr
+bad message:RT iamZatoshi BITCOIN SV GIVEAWAY 24 Hours 2 People 50 in BSV each Follow me Retweet Like Good Luck Z https
+Added 0 normal tweets and 0 verified tweets
+/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/model
+bad message:RT BestFxreviews Best Online Trading Brokers in the International Market forex fx bitcoinnews Bitcoin BTC cryptocurrency Crypto C
+bad message:RT DrepOfficial Check out DREP 2 0 roadmap for 2021 2022 DREP is heading for DeFi NFT Layer2 With ready to go products li
+bad message:RT AirdropDet New Airdrop SFMONEY Total Reward 10 SFM 50 3 SFM 15 per referral Start the airdrop bot https t co Ar
+Added 0 normal tweets and 0 verified tweets
+/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/model
+bad message:I just joined this 25k Crypto giveaway by JRNYcrypto and sparkpointio Get daily entries to increase your chances of winning 25 random winners of 1k each Bitcoin Crypto BTC ETH SRK https t co cjOKXvs3fK
+bad message:RT TonySparkOG Check out my Cryptocurrency guides playlist on YouTube to get some great value for free Guides https t co sArKXBTFlx
+bad message:RT iamZatoshi BITCOIN SV GIVEAWAY 24 Hours 2 People 50 in BSV each Follow me Retweet Like Good Luck Z https
+bad message:For Free 0 05 bitcoin read on https t co 3RHspZU7q4
+bad message:Join binance and get 10 commission kickback rate https t co em9sH6l9I5 BSC BTC Bitcoin BNB cryptocurrency https t co bPYzQKDcUf
+Added 0 normal tweets and 0 verified tweets
+bad message:banjarbase bitcoin
+bad message:2 551 513 bitcoin SHORTED 47948 36 06 03 21 10 56 01 bybit BTCUSD See you later bitcoin hater sommonero
+bad message:ETH 400 Profit Checkout the link in bio for crypto signals GXS bitcoin BRD CHZ STMX APPC 77276 https t co gcpRk49Hc7
+bad message:4 239 113 bitcoin SHORTED 47995 36 06 03 21 10 56 01 bybit BTCUSD patience is a virtue only few got it innocentnerdy
+bad message:RT RamonQuesadaT Aun no sebes lo que son los micropagos en BitCoin prep rate para lo que est llegando 0 0005 de comisi n de red
+bad message:iamfarhaaaan Sign up and get your 10 new user bonus Chance to win crypto with regular airdrops and events Logged into the world s best crypto exchange https t co JPQC93w0Q1 bitcoin btc airdrop airdrops blockchain crypto cryptocurrency ethereum eth xrp
+Added 4 normal tweets and 0 verified tweets
+good message: RT BestForexLinks Top 10 Bitcoin Brokers https t co zXfsTJyGnj Top10BitcoinBrokers BestBitcoinBrokers
+good message: la desgracia pubgkadeewana Elon Musk has been causing a lot of pain to Tesla s investors For how long Elon Musk will continue on inflicting pain to Tesla s investors Elon get rid of Bitcoin today And investors around the world will do the cheer up dance Jerusalem for you and Tesla
+good message: RT Cryptobabushka michael saylor Dear Mr Saylor Captain of the Bitcoin ship Do look in to EDDA You definitely want to own some
+good message: RT fintech germany Amazing Blocks can tokenize Any Asset Legally https t co RQgraqs27s blockchain bitcoin cryptocurrency crypto b
+bad message:RT cem tamay 5 sene nce aras zbiliz yerine bitcoin alsayd k u an borcumuz s f rd
+good message: Zionodes starts 2021 with a unique Crypto DeFi solution Bitcoin mining should be easy amp we understand this Users on our ASICs platform can now buy verified mining equipment in the form of a DeFi token Bitcoinmining revolutionized https t co 8hA28iOkJF https t co zlXaZvXTmi
+good message: daishca LazyYetWavy TrumpetDan Elon Musk has been causing a lot of pain to Tesla s investors For how long Elon Musk will continue on inflicting pain to Tesla s investors Elon get rid of Bitcoin today And investors around the world will do the cheer up dance Jerusalem for you and Tesla
+good message: vikriekyy MKBHD Elon Musk has been causing a lot of pain to Tesla s investors For how long Elon Musk will continue on inflicting pain to Tesla s investors Elon get rid of Bitcoin today And investors around the world will do the cheer up dance Jerusalem for you and Tesla
+bad message:imBagsy Bitcoin
+bad message:RT DrepOfficial Check out DREP 2 0 roadmap for 2021 2022 DREP is heading for DeFi NFT Layer2 With ready to go products li
+Added 7 normal tweets and 0 verified tweets
+bad message:I just joined this 25k Crypto giveaway by JRNYcrypto and sparkpointio Get daily entries to increase your chances of winning 25 random winners of 1k each Bitcoin Crypto BTC ETH SRK https t co eSfG1BTRR0
+good message: RT BrookeWeider Who can help me with a little Bitcoin 1J9EL94TpvpygmqGYrpnVRf8ifBBgykAm8 Bitcoin BTC makemydayloves Iamd
+good message: daishca realMeetKevin Elon Musk has been causing a lot of pain to Tesla s investors For how long Elon Musk will continue on inflicting pain to Tesla s investors Elon get rid of Bitcoin today And investors around the world will do the cheer up dance Jerusalem for you and Tesla
+bad message:Yanl l kla KYK Kredisi ile Bitcoin alsayd m ke ke https t co BatPvEFv3A
+good message: RT jsblokland Is bitcoin digital gold https t co quDunUqnhR
+good message: RT NicolasDorier Via our lightning store at dglab official you can now participate to the crowdfund of the Precursor made by the great
+good message: RT AllisonReichel Happy Friday This week I wanted to highlight a company that is revolutionizing the finance space and allowing users t
+bad message:RT bmurphypointman linkedin twitter facebook instagram bitcoin socialmedia pinterest medium reddit gift gifts giftideas shop
+good message: Atiller pokehun TheMoonCarl cz binance Elon Musk has been causing a lot of pain to Tesla s investors For how long Elon Musk will continue on inflicting pain to Tesla s investors Elon get rid of Bitcoin today And investors around the world will do the cheer up dance Jerusalem for you and Tesla
+bad message:RT bmurphypointman birthdaygift linkedin twitter facebook instagram tiktok socialmedia pinterest medium deal gift gifts gift
+Added 6 normal tweets and 0 verified tweets
+good message: ShawnMElliott3 its menieb Elon Musk has been causing a lot of pain to Tesla s investors For how long Elon Musk will continue on inflicting pain to Tesla s investors Elon get rid of Bitcoin today And investors around the world will do the cheer up dance Jerusalem for you and Tesla
+good message: RT CedYoungelman Bitcoin is everything people don t know about computers combined with everything they don t know about money kia
+good message: RT Cryptobabushka michael saylor Dear Mr Saylor Captain of the Bitcoin ship Do look in to EDDA You definitely want to own some
+bad message:RT 931TANoS I have a Dreams TACOSWAP1 15 Project Defi yousuck2020 benmendy23 TACOSWAP1 elonmusk crd DeFi Bitcoin Ethereum CR
+bad message:RT latokens LATOKEN zilliqa Giveaway 3 lucky winners to get 750 ZIL each Participant with most referrals gets assured 750 ZIL D
+good message: RT Cryptobabushka michael saylor Dear Mr Saylor Captain of the Bitcoin ship Do look in to EDDA You definitely want to own some
+bad message:I just joined this 25k Crypto giveaway by JRNYcrypto and sparkpointio Get daily entries to increase your chances of winning 25 random winners of 1k each Bitcoin Crypto BTC ETH SRK https t co Y0ZhbzsKeQ
+bad message:RT DrepOfficial Check out DREP 2 0 roadmap for 2021 2022 DREP is heading for DeFi NFT Layer2 With ready to go products li
+good message: RT RyanMil51605926 Institutions that have traditionally used gold to hedge against inflation have been increasingly snapping up Bitcoin
+bad message:RT JRNYcrypto THE CRYPTO GIVEAWAY CONTEST IS NOW LIVE 25K IN CRYPTO PRIZES Prizes 10 winners of 1000 of ETH 15 winners
+Added 5 normal tweets and 0 verified tweets
+bad message:Precio actual del Bitcoin Ethereum y Ripple 1 USD 21 21 MXN 1 BTC 1 031 500 00 MXN 1 ETH 33 689 37 MXN 1 XRP 9 90 MXN 1 LTC 3 874 63 MXN 1 BCH 10 690 00 MXN Compra y Vende Bitcoin Ethereum y Ripple desde aqu https t co EgcahDQQRb
+bad message:For more information log on to https t co R1kcqQc6iy https t co AnLrUEDNjO Tron TronNetwork Trx DeFi bitcoin etherium troncryptocurrency troncore bitcoinnews bitcoinmining bitcointrading bitcoinprice cryptocurrency forex blockchaintechnology blockchain https t co tQk1Q9AVcp
+bad message:1 BTC 48 093 90 USD 2 20 chg 24h Bitcoin BTC Crypto Cryptocurrency
+good message: RT Cryptobabushka 100trillionUSD PlanB Have you looked at EDDA The buzzword is with only 5000 token supply forever EDDA will be 2
+bad message:03 06 20 00 Bitcoin 5 193 910 NEM XEM 75 6946 Monacoin 205 1 Ethereum 168 825 Zaif 0 4909
+bad message:Un analista le dice a Tesla que se deshaga de Bitcoin para hacer recompras de sus acciones https t co EllHnEh2U7
+good message: On 6 Mar 2016 alexberegszaszi writes smart contract to secure Ethereum wallets with Bitcoin keys Ethereum makes drones fly from 10 6 to 11 4 or 0 02649 to 0 02793 https t co KF9xEoZOJa
+good message: aiyinghua AshikSarkarLeon realMeetKevin Elon Musk has been causing a lot of pain to Tesla s investors For how long Elon Musk will continue on inflicting pain to Tesla s investors Elon get rid of Bitcoin today And investors around the world will do the cheer up dance Jerusalem for you and Tesla
+bad message:48032 67 40385 59 327391 18 34772 73 bitcoinprice cryptocurrency bitcoin
+good message: Average Bitcoin market price is USD 48 076 38 EUR 40 431 95
+Added 4 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 20, in <module>
+    verified, normal = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 52, in <module>
+    verified = verify_tweets(tweets)
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 37, in verify_tweets
+    verified = r.json()['data'][0]['verified']
+  File "/Users/Ian/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+bad message:RT DrepOfficial Check out DREP 2 0 roadmap for 2021 2022 DREP is heading for DeFi NFT Layer2 With ready to go products li
+bad message:What do u want cryptocurrency Bitcoin BTC https t co jqt8yLv7pS
+bad message:RT Money earn Fi KYFI Airdrop 1 KYFI 300 USD For Completing the tasks Get 0 1 KYFI 30 For Each Valid Refer Get 0 05 KYFI
+bad message:lancelotspram Duck2Lightning No refund you paid with bitcoin
+Added 6 normal tweets and 0 verified tweets
+bad message:Armstrong milmillonario por la gracia del bitcoin https t co W8jJ4UnWDF v a el pais
+bad message:Daily Airdrops by staking Bitcoin Plus XBC https t co tP7Ekh0wjC
+bad message:1 BTC USD 1566 82 ARS 21 47 MXN 1035469 11 Argentina Bitcoin
+bad message:RayWin06 Ben bitcoin altcoin i ine hi el atmadim Banka d i lem oldu u g ven vermiyor Ama kardesimde var Olursa onun i in takip ederim Ge en yotube da ilk derste dolar analizi yapm oldunuz Dolar ve alt n belki listenize ekleyebilirsiniz Yani olursa g zel olur
+bad message:RT iamZatoshi BITCOIN SV GIVEAWAY 24 Hours 2 People 50 in BSV each Follow me Retweet Like Good Luck Z https
+bad message:RT bmurphypointman tumblr twitter facebook discount instagram tiktok socialmedia pinterest reddit deal gift gifts giftideas
+bad message:MissionFailed19 Sign up and get your 10 new user bonus Chance to win crypto with regular airdrops and events Logged into the world s best crypto exchange https t co JPQC93w0Q1 bitcoin btc airdrop airdrops blockchain crypto cryptocurrency ethereum eth xrp
+Added 3 normal tweets and 0 verified tweets
+bad message:RT PinelixSwap Pinelix Swap Airdrop Bot is live https t co RNFYfGwtOq PNL Bsc Binance Bitcoin DeFi Definews StaFi
+bad message:RT iamZatoshi BITCOIN SV GIVEAWAY 24 Hours 2 People 50 in BSV each Follow me Retweet Like Good Luck Z https
+bad message:RT spexchange NEW PROMOTION DEMO TRADE EARN REAL BITCOIN BONUS UP TO 0 61BTC 25 000 spexchange spwallet spcoin https t
+bad message:Shaimaa45586869 Sign up and get your 10 new user bonus Chance to win crypto with regular airdrops and events Logged into the world s best crypto exchange https t co JPQC93w0Q1 bitcoin btc airdrop airdrops blockchain crypto cryptocurrency ethereum eth xrp
+Added 6 normal tweets and 0 verified tweets
+bad message:RT Bloctrends En la gr fica podemos observar como el ciclo de halving actual apenas comienza El potencial de crecimiento de este nuevo
+bad message:Cajeros de bitcoin son cada vez m s usados para lavado de dinero seg n la DEA En un informe publicado esta semana la DEA asegura que los cajeros de bitcoin fueron la alternativa preferida por carteles de la droga durante 2020 Leer https t co CpRuKp91du V a CriptoNoticias https t co bMWWoOx1tq
+bad message:No need to spend your own money to trade cryptocurrency Over 10K users won crypto rewards on latokens last week It s the best way to join the financial revolution Start by earning a share of 100K in CLIQ airdrop https t co me1m7Llq8T Bitcoin ETH Citi AON LATOKEN
+bad message:En la gr fica podemos observar como el ciclo de halving actual apenas comienza El potencial de crecimiento de este nuevo ciclo viene adem s respaldado por una gran adopci n institucional y de minoristas a nivel mundial Bitcoin BTCUSD bullmarket https t co npeGGWYjFP
+bad message:If you re considering cryptocurrency start with latokens Participate easily in airdrops amp giveaways on LATOKEN to earn free crypto Their app is pretty awesome too Start by participating in the ZIL giveaway https t co xsSoai7k0M dogecoin LatokenApp Bitcoin
+Added 5 normal tweets and 0 verified tweets
+bad message:RT latokens LATOKEN giftedhandsGHD Giveaway 4 lucky winners to get 50K GHD each Participant with most invites gets assured 50K GHD
+bad message:Approach Cryptoknowmics For Live Cryptocurrency News Cryptoknowmics is the best platform for live cryptocurrency news You get updates on Bitcoin Ethereum Ripple Dash NEO Tezos and other popular cryptos livecryptocurrencynews https t co W01L4CqgLw https t co nMZ8Kb8Hov
+Added 8 normal tweets and 0 verified tweets
+bad message:RT NitroExOfficial Our first event is Airdrop Up to 50 000 NTX for each participant Let s click now to start winning https t co 0
+bad message:RT latokens LATOKEN zilliqa Giveaway 3 lucky winners to get 750 ZIL each Participant with most referrals gets assured 750 ZIL D
+bad message:Intertops Casino 50 Free Spins Sign Up Bonus and 200 250 March Bonus Coupons https t co P7abOoByaY Reliable Bitcoin Litecoin Crypto BitcoinCash or Fiat Casino est 1998 Canada Australia Welcome No UK No France https t co qD6GhfPbwr
+Added 7 normal tweets and 0 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+ModuleNotFoundError: No module named 'Causality_analysis'
+/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8: can't open file '/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py': [Errno 2] No such file or directory
+/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8: can't open file '/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py': [Errno 2] No such file or directory
