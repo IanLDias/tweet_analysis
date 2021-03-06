@@ -3,10 +3,12 @@ import os
 import json
 import sqlite3  
 import re
+from env import BEARER
+
 conn = sqlite3.connect('tweets.db')
 
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAKeALAEAAAAA7pr%2B0Wbti3cRC%2FWaMWouen%2F2cmQ%3DLdwugPjXpcX8TqRrocCtqAAYFwUP8dDqF1jMgm26kk8o2bVvcx'
-
+bearer_token = BEARER
+print(bearer_token)
 headers = {"Authorization": "Bearer {}".format(bearer_token)}
 
 def create_url(query):

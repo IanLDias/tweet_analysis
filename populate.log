@@ -282,3 +282,32 @@ Added 10 normal tweets and 0 verified tweets
 Added 10 normal tweets and 0 verified tweets
 Added 10 normal tweets and 0 verified tweets
 Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+Added 10 normal tweets and 0 verified tweets
+{'id': '1368072578192015362', 'author_id': '1632426716', 'created_at': '2021-03-06T05:34:54.000Z', 'text': 'RT @AlaattinCAGIL: Bitcoin’in en güzel anlatımı... https://t.co/K4qkvB0YXS'}
+Added 9 normal tweets and 1 verified tweets
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 6, in <module>
+    from decouple import config
+ModuleNotFoundError: No module named 'decouple'
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 6, in <module>
+    from decouple import config
+ImportError: cannot import name 'config' from 'decouple' (/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/decouple/__init__.py)
+Traceback (most recent call last):
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/add_tweets.py", line 1, in <module>
+    from Causality_analysis import get_tweets, verify_tweets, preprocess_tweet
+  File "/Users/Ian/Documents/GitHub/Machine_Learning/tweet_analysis/Causality_analysis.py", line 6, in <module>
+    from env import BEARER
+ModuleNotFoundError: No module named 'env'
+AAAAAAAAAAAAAAAAAAAAAKeALAEAAAAA7pr%2B0Wbti3cRC%2FWaMWouen%2F2cmQ%3DLdwugPjXpcX8TqRrocCtqAAYFwUP8dDqF1jMgm26kk8o2bVvcx
+Added 10 normal tweets and 0 verified tweets
